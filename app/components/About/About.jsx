@@ -17,8 +17,7 @@ const About = () => {
                         think that it is an environment where one can work with modeling technique for pleasure rather than
                         necessity, and I want to improve myself with different models.
 
-                        Öncelikle yazılım dünyasına girmek bir hayaldi. Lise yıllarımdan beri (2003'ten beri) aklımda olan bir tutkuydu. Yazılımdan
-                        uzak çeşitli sektörlerde çalışsam da,
+                        First of all, entering the software world was a dream. It was a passion that had been on my mind since my high school years (since 2003). Although I worked in various sectors far from software,
                         I can clearly say that I want to progress in the software industry, I can say that this is a direction where I can enjoy this passion rather than the salary.
                     </p>
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
