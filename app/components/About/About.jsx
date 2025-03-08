@@ -15,7 +15,7 @@ const About = () => {
                     <p className='text-justify mb-4' >
                         Turning dreams into code and being able to guide people at their fingertips must be a realistic dream. I
                         think that it is an environment where one can work with modeling technique for pleasure rather than
-                        necessity, and I want to improve myself with different models.<hr className='m-4' />
+                        necessity, and I want to improve myself with different models.
 
                         Öncelikle yazılım dünyasına girmek bir hayaldi. Lise yıllarımdan beri (2003'ten beri) aklımda olan bir tutkuydu. Yazılımdan
                         uzak çeşitli sektörlerde çalışsam da,
