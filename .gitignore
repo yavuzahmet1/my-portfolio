@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+node_modules/
+build/
+*.log
+
 # production
 /build
 
