@@ -13,8 +13,8 @@ export default {
                 darkTheme: "#11001f",
             },
             fontFamily: {
-                outfit: ["var(--font-outfit)", "sans-serif"],
-                ovo: ["var(--font-ovo)", "serif"],
+                // outfit: ["var(--font-outfit)", "sans-serif"],
+                // ovo: ["var(--font-ovo)", "serif"],
             },
         },
     },
