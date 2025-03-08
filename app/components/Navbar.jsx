@@ -5,13 +5,13 @@ import React, { useRef } from 'react'
 
 const Navbar = () => {
 
-    const sideMenu = useRef(false);
+    const sideMenu = useRef(null);
 
     const openMenu = () => {
-        sideMenu.current.style.transform = "translateX(-16rem)"
+        sideMenu.current.style.transform = "translateX(0)"
     }
     const closeMenu = () => {
-        sideMenu.current.style.transform = "translateX(16rem)"
+        sideMenu.current.style.transform = "translateX(100%)"
     }
 
     return (
@@ -47,7 +47,7 @@ const Navbar = () => {
 
                 </div>
                 {/* ---mobile menu---- */}
-                <ul ref={sideMenu} className='flex  md:hidden flex-col gap-4 py-20  px-10 fixed -right-0 top-0 bottom-0 w-64 z-50 h-screen bg-amber-200 transition-opacity duration-500'>
+                <ul ref={sideMenu} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed right-0 top-0 bottom-0 w-64 z-50 h-screen bg-amber-200 transition-transform duration-500 transform translateX(100%)'>
                     <div className='absolute right-6 top-6' onClick={closeMenu}>
                         <Image src={assets.close_black} alt='' className='w-6' />
                     </div>
@@ -57,8 +57,8 @@ const Navbar = () => {
                     <li><a onClick={closeMenu} href="#services">Services</a></li>
                     <li><a onClick={closeMenu} href="#work">My Work</a></li>
                     <li><a onClick={closeMenu} href="#contact">Contact Me</a></li>
-                </ul >
-            </nav >
+                </ul>
+            </nav>
         </>
     )
 }
