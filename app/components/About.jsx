@@ -5,7 +5,7 @@ import React from 'react'
 const About = () => {
 
     return (
-        <div id='about' className='w-full px-[12%] scroll-mt-20 my-20'>
+        <div id='about' className='w-full px-[12%] scroll-mt-20 my-20 text-center'>
 
             <h4 className='text-center mb-2 text-lg'>Introduction</h4>
             <h2 className='text-center text-5xl'>About me</h2>
@@ -15,12 +15,9 @@ const About = () => {
                 </div>
                 <div className='flex-1'>
                     <p className='text-justify mb-4' >
-                        Turning dreams into code and being able to guide people at their fingertips must be a realistic dream. I
-                        think that it is an environment where one can work with modeling technique for pleasure rather than
-                        necessity, and I want to improve myself with different models.
+                        I am passionate about crafting seamless user experiences and enjoy collaborating with cross-functional teams to build accessible, high-performance websites that meet both user and business needs. My curiosity drives me to stay updated with emerging technologies, and I actively contribute to open-source projects to refine my skills and give back to the community.
 
-                        First of all, entering the software world was a dream. It was a passion that had been on my mind since my high school years (since 2003). Although I worked in various sectors far from software,
-                        I can clearly say that I want to progress in the software industry, I can say that this is a direction where I can enjoy this passion rather than the salary.
+                        Whether it's developing scalable backend architectures, designing intuitive frontend interfaces, or optimizing performance, I thrive on solving complex problems and delivering impactful digital solutions. I am always eager to take on new challenges and work with like-minded professionals to create innovative and cutting-edge web experiences.
                     </p>
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                         {
