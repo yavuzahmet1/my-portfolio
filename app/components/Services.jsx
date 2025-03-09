@@ -4,7 +4,8 @@ import React from 'react'
 
 const Services = () => {
     return (
-        <div id='services' className='w-full px-[12%] scroll-mt-20 my-20'>
+
+        <div id='services' className='w-full px-[12%] scroll-mt-28 my-20'>
             <h4 className='text-center mb-2 text-lg'>What I Offer</h4>
             <h2 className='text-center text-5xl'>My Services</h2>
             <p className='text-center max-w-2xl mx-auto mt-5 mb-12'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt itaque fugiat velit possimus, vitae veritatis nihil provident molestiae neque voluptatum exercitationem eius expedita hic ex amet. Itaque atque ipsum odio!</p>
