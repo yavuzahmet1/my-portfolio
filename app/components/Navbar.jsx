@@ -5,31 +5,24 @@ import React, { useEffect, useRef, useState } from 'react';
 
 const Navbar = () => {
     const [isScroll, setIsScroll] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
     const sideMenu = useRef(null);
 
     const openMenu = () => {
-        sideMenu.current.style.transform = "translateX(0)";
+        setMenuOpen(true);
     };
 
     const closeMenu = () => {
-        sideMenu.current.style.transform = "translateX(100%)";
+        setMenuOpen(false);
     };
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 50) {
-                setIsScroll(true);
-            } else {
-                setIsScroll(false);
-            }
+            setIsScroll(window.scrollY > 50);
         };
 
         window.addEventListener("scroll", handleScroll);
-
-        // Cleanup function to remove the event listener
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
+        return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
     return (
@@ -66,9 +59,9 @@ const Navbar = () => {
                 </div>
 
                 {/* ---mobile menu---- */}
-                <ul ref={sideMenu} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed right-0 top-0 bottom-0 w-64 z-50 h-screen bg-amber-200 transition-transform duration-500 transform translate-x-full'>
+                <ul ref={sideMenu} className={`fixed top-0 right-0 w-64 h-screen bg-amber-200 z-[999] flex flex-col gap-4 py-20 px-10 transition-transform duration-500 ${menuOpen ? "translate-x-0" : "translate-x-full"}`}>
                     <div className='absolute right-6 top-6' onClick={closeMenu}>
-                        <Image src={assets.close_black} alt='' className='w-6' />
+                        <Image src={assets.close_black} alt='' className='w-6 cursor-pointer' />
                     </div>
 
                     <li><a onClick={closeMenu} href="#top">Home</a></li>
