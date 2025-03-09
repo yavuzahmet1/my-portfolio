@@ -16,6 +16,7 @@ export default {
                 // outfit: ["var(--font-outfit)", "sans-serif"],
                 // ovo: ["var(--font-ovo)", "serif"],
             },
+
         },
     },
     plugins: [],
