@@ -42,6 +42,7 @@ import furnished from "./projects/furnished.gif";
 import login from "./projects/login.gif";
 import portfolio from "./projects/portfolio.gif"
 import shopping_cart from "./projects/shopping-cart.gif"
+import dicee from "./projects/dicee.png"
 
 
 export const assets = {
@@ -88,7 +89,8 @@ export const assets = {
     furnished,
     login,
     portfolio,
-    shopping_cart
+    shopping_cart,
+    dicee
 };
 
 export const workData = [
@@ -121,11 +123,13 @@ export const serviceData = [
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
 
+//cafe harveyin yolu kaldı
+
 export const projectsData = [
     { icon: assets.portfolio, github: "", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
     { icon: assets.shopping_cart, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/shopping-cart", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/shopping-cart/" },
-    { icon: assets.portfolio, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/dicee-challenge", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/dicee-challenge/" },
-    { icon: assets.portfolio, github: "", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
+    { icon: assets.dicee, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/dicee-challenge", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/dicee-challenge/" },
+    { icon: assets.cafe_harvey, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/cup-time-coffee", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
     { icon: assets.portfolio, github: "", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
     { icon: assets.portfolio, github: "", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
 ]
