@@ -35,6 +35,14 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import rotate_animation from "./projects/animation.gif";
+import cafe_harvey from "./projects/cafe-harvey.gif";
+import cafe from "./projects/cafe.gif";
+import furnished from "./projects/furnished.gif";
+import login from "./projects/login.gif";
+import portfolio from "./projects/portfolio.gif"
+import shopping_cart from "./projects/shopping-cart.gif"
+
 
 export const assets = {
     user_image,
@@ -73,7 +81,14 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    rotate_animation,
+    cafe_harvey,
+    cafe,
+    furnished,
+    login,
+    portfolio,
+    shopping_cart
 };
 
 export const workData = [
@@ -104,6 +119,15 @@ export const serviceData = [
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+]
+
+export const projectsData = [
+    { icon: assets.portfolio, github: "", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
+    { icon: assets.shopping_cart, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/shopping-cart", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/shopping-cart/" },
+    { icon: assets.portfolio, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/dicee-challenge", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/dicee-challenge/" },
+    { icon: assets.portfolio, github: "", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
+    { icon: assets.portfolio, github: "", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
+    { icon: assets.portfolio, github: "", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
 ]
 
 export const infoList = [
