@@ -43,7 +43,7 @@ import login from "./projects/login.gif";
 import portfolio from "./projects/portfolio.gif"
 import shopping_cart from "./projects/shopping-cart.gif"
 import dicee from "./projects/dicee.png"
-import authum from "./projects/authum.png"
+import authum from "./projects/authum.gif"
 
 
 export const assets = {
