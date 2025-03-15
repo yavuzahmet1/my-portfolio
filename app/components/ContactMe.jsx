@@ -66,13 +66,14 @@ const ContactMe = () => {
                     />
                     <Textarea
                         placeholder="Enter your message"
-                        minRows={2}
+                        minRows={4}
                         maxRows={4}
                         sx={{ width: '100%', gridColumn: '1 / -1' }}
                     />
-                    <Button
+                    <Button content='center'
                         type='submit'
-                        sx={{ mt: "1rem", width: '50%' }}
+                        sx={{ mt: "0.5rem", width: '50%' }}
+
                     >
                         Submit
                     </Button>
