@@ -5,10 +5,41 @@ import Textarea from '@mui/joy/Textarea';
 import { Button } from '@mui/joy';
 import { useState } from 'react';
 
+const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
+
 const ContactMe = () => {
+    console.log("Access Key:", process.env.WEB3FORMS_ACCESS_KEY);
+    console.log("Access Key:", accessKey);
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [isTouched, setIsTouched] = useState(false);
+    const [result, setResult] = useState("");
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
+
+        formData.append("access_key", accessKey);
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            setResult("Form Submitted Successfully");
+            event.target.reset();
+            setEmail('');
+            setName('');
+        } else {
+            console.log("Error", data);
+            setResult(data.message);
+        }
+    };
+
 
     const handleEmailChange = (event) => {
         setEmail(event.target.value);
@@ -30,6 +61,7 @@ const ContactMe = () => {
             <h2 className='text-center text-5xl'>Contact Me</h2>
             <Box
                 component="form"
+                onSubmit={onSubmit}
                 sx={{
                     display: 'flex',
                     flexDirection: 'column',
@@ -44,6 +76,7 @@ const ContactMe = () => {
                 <Box className='grid grid-cols-2 gap-6 mt-10 mb-8'>
                     <TextField
                         id="name"
+                        name='name'
                         label="Name"
                         variant="outlined"
                         sx={{ width: '100%' }}
@@ -55,6 +88,7 @@ const ContactMe = () => {
                     />
                     <TextField
                         id="email"
+                        name='email'
                         label="e-mail"
                         variant="outlined"
                         sx={{ width: '100%' }}
@@ -65,6 +99,7 @@ const ContactMe = () => {
                         helperText={isTouched && !isEmailValid ? "E-mail is required" : ""}
                     />
                     <Textarea
+                        name='message'
                         placeholder="Enter your message"
                         minRows={4}
                         maxRows={4}
@@ -77,7 +112,9 @@ const ContactMe = () => {
                     >
                         Submit
                     </Button>
+
                 </Box>
+                <p >{result}</p>
             </Box>
         </div>
     );
