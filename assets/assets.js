@@ -44,6 +44,10 @@ import portfolio from "./projects/portfolio.gif"
 import shopping_cart from "./projects/shopping-cart.gif"
 import dicee from "./projects/dicee.png"
 import authum from "./projects/authum.gif"
+import login_animation from "./projects/login.gif";
+import currency_app from "./projects/currency_app.gif"
+import nba_legends from "./projects/nba_legends.gif"
+import stock from "./projects/stock.gif"
 
 
 export const assets = {
@@ -92,7 +96,11 @@ export const assets = {
     portfolio,
     shopping_cart,
     dicee,
-    authum
+    authum,
+    login_animation,
+    currency_app,
+    nba_legends,
+    stock
 };
 
 export const workData = [
@@ -125,15 +133,18 @@ export const serviceData = [
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
 
-//cafe harveyin yolu kaldı
-
 export const projectsData = [
     { icon: assets.portfolio, title: "Portfolio Page", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/blob/main/index.html", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
     { icon: assets.shopping_cart, title: "Shopping Cart", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/shopping-cart", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/shopping-cart/" },
     { icon: assets.dicee, title: "Dicee Challenge", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/dicee-challenge", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/dicee-challenge/" },
     { icon: assets.cafe_harvey, title: "Cafe Shop", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/cup-time-coffee", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/cup-time-coffee/" },
     { icon: assets.authum, title: "User Page", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/autum-user-login", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/autum-user-login/" },
+    { icon: assets.login_animation, title: "User Login Page Animation", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/animated-login-page", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/animated-login-page/" },
     { icon: assets.cafe, title: "Coffee Sales", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/coffee-shop", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/coffee-shop/" },
+    { icon: assets.currency_app, title: "Currency App", github: "https://github.com/yavuzahmet1/currency-app", link: "https://currency-app-git-main-1yavuzahmets-projects.vercel.app/" },
+    { icon: assets.nba_legends, title: "NBA Legends", github: "https://github.com/yavuzahmet1/nba-legends", link: "https://yavuzahmet1.github.io/nba-legends/" },
+    { icon: assets.stock, title: "Stock Sage Management", github: "https://github.com/yavuzahmet1/stock-sage-management", link: "https://stock-sage-management.vercel.app/" },
+
 ]
 
 export const infoList = [
