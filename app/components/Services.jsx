@@ -16,7 +16,7 @@ const Services = () => {
                     projectsData.map(({ icon, github, link, title }, index) => (
                         <div key={index} className='text-justify 
                         border border-gray-400 rounded-lg py-2 px-1 hover:bg-blue-100 hover:-translate-y-1 duration-300 cursor-pointer'>
-                            <Image src={icon} alt='' className=' w-50 mx-auto aspect-video' />
+                            <Image src={icon} alt='' className=' w-50 mx-auto aspect-video' unoptimized />
                             <h4 className='text-sm my-2 text-center text-gray-700'>{title}</h4>
                             {/* <p className='text-xs text-gray-500 leading-5'>description</p> */}
                             <Divider />
