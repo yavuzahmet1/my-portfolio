@@ -1,4 +1,7 @@
-import React from 'react'
+"use client"
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Footer = () => {
     return (
@@ -12,13 +15,13 @@ const Footer = () => {
                 </p>
                 <ul className='flex items-cente justify-center mt-4 gap-10 sm:mt-0'>
                     <li>
-                        <a target='_blank' href="https://www.instagram.com/1yavuzahmet/">instagram</a>
+                        <a target='_blank' href="https://www.instagram.com/1yavuzahmet/"><InstagramIcon /></a>
                     </li>
                     <li>
-                        <a target='_blank' href="https://www.linkedin.com/in/1yavuzahmet/">linkedin</a>
+                        <a target='_blank' href="https://www.linkedin.com/in/1yavuzahmet/"><LinkedInIcon /></a>
                     </li>
                     <li>
-                        <a target='_blank' href="https://github.com/yavuzahmet1">github</a>
+                        <a target='_blank' href="https://github.com/yavuzahmet1"><GitHubIcon /></a>
                     </li>
                 </ul>
             </div>
