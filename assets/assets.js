@@ -128,12 +128,12 @@ export const serviceData = [
 //cafe harveyin yolu kaldı
 
 export const projectsData = [
-    { icon: assets.portfolio, github: "", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
-    { icon: assets.shopping_cart, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/shopping-cart", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/shopping-cart/" },
-    { icon: assets.dicee, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/dicee-challenge", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/dicee-challenge/" },
-    { icon: assets.cafe_harvey, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/cup-time-coffee", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/cup-time-coffee/" },
-    { icon: assets.authum, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/autum-user-login", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/autum-user-login/" },
-    { icon: assets.cafe, github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/coffee-shop", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/coffee-shop/" },
+    { icon: assets.portfolio, title: "Portfolio Page", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/blob/main/index.html", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/" },
+    { icon: assets.shopping_cart, title: "Shopping Cart", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/shopping-cart", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/shopping-cart/" },
+    { icon: assets.dicee, title: "Dicee Challenge", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/dicee-challenge", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/dicee-challenge/" },
+    { icon: assets.cafe_harvey, title: "Cafe Shop", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/cup-time-coffee", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/cup-time-coffee/" },
+    { icon: assets.authum, title: "User Page", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/autum-user-login", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/autum-user-login/" },
+    { icon: assets.cafe, title: "Coffee Sales", github: "https://github.com/yavuzahmet1/fullstack-learning-mod-1/tree/main/projects/coffee-shop", link: "https://yavuzahmet1.github.io/fullstack-learning-mod-1/projects/coffee-shop/" },
 ]
 
 export const infoList = [
