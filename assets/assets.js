@@ -42,12 +42,12 @@ import furnished from "./projects/furnished.gif";
 import login from "./projects/login.gif";
 import portfolio from "./projects/portfolio.gif"
 import shopping_cart from "./projects/shopping-cart.gif"
-import dicee from "./projects/dicee.png"
+import dicee from "./projects/dicee.gif"
 import authum from "./projects/authum.gif"
 import login_animation from "./projects/login.gif";
 import currency_app from "./projects/currency_app.gif"
 import nba_legends from "./projects/nba_legends.gif"
-import stock from "./projects/stock.gif"
+import stock from "./projects/stock.gif";
 
 
 export const assets = {
@@ -100,7 +100,7 @@ export const assets = {
     login_animation,
     currency_app,
     nba_legends,
-    stock
+    stock,
 };
 
 export const workData = [
