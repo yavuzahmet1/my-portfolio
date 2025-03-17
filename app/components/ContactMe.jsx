@@ -7,8 +7,6 @@ import { useState } from 'react';
 const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
 
 const ContactMe = () => {
-    console.log("Access Key:", process.env.WEB3FORMS_ACCESS_KEY);
-    console.log("Access Key:", accessKey);
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [isTouched, setIsTouched] = useState(false);
