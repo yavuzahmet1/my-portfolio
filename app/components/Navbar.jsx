@@ -32,13 +32,13 @@ const Navbar = () => {
             </div>
             <nav className={`fixed top-0 left-0 right-0 flex items-center justify-between w-full px-5 lg:px-8 xl:px-[8%] py-4 z-50 ${isScroll ? "bg-opacity-50 backdrop-blur-sm shadow-sm" : ""}`}>
                 <a href="#top">
-                    <Image src={assets.logo} className='w-28 cursor-pointer mr-14' alt='' />
+                    <Image src={assets.logo} className='w-10 cursor-pointer mr-14' alt='' />
                 </a>
 
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : " bg-amber-100 shadow-sm bg-opacity-50"}`}>
                     <li><a href="#top">Home</a></li>
                     <li><a href="#about">About Me</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#myproject">My Projects</a></li>
                     <li><a href="#contact">Contact Me</a></li>
                     <li><a href="#privacy">Privacy</a></li>
                 </ul>
@@ -66,7 +66,7 @@ const Navbar = () => {
 
                     <li><a onClick={closeMenu} href="#top">Home</a></li>
                     <li><a onClick={closeMenu} href="#about">About Me</a></li>
-                    <li><a onClick={closeMenu} href="#services">Services</a></li>
+                    <li><a onClick={closeMenu} href="#myproject">My Projects</a></li>
                     <li><a onClick={closeMenu} href="#contact">Contact Me</a></li>
                     <li><a onClick={closeMenu} href="#privacy">Privacy</a></li>
                 </ul>
