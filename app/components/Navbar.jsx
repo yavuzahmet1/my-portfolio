@@ -39,8 +39,8 @@ const Navbar = () => {
                     <li><a href="#top">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#work">My Work</a></li>
                     <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="#privacy">Privacy</a></li>
                 </ul>
 
                 <div className='flex gap-2.5'>
@@ -67,8 +67,8 @@ const Navbar = () => {
                     <li><a onClick={closeMenu} href="#top">Home</a></li>
                     <li><a onClick={closeMenu} href="#about">About Me</a></li>
                     <li><a onClick={closeMenu} href="#services">Services</a></li>
-                    <li><a onClick={closeMenu} href="#work">My Work</a></li>
                     <li><a onClick={closeMenu} href="#contact">Contact Me</a></li>
+                    <li><a onClick={closeMenu} href="#privacy">Privacy</a></li>
                 </ul>
             </nav>
         </>

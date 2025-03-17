@@ -1,5 +1,4 @@
 "use client"
-// import error from "../../assets/page-error.gif";
 import { Box, TextField } from '@mui/material';
 import Textarea from '@mui/joy/Textarea';
 import { Button } from '@mui/joy';
