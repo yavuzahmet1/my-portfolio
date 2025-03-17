@@ -15,16 +15,16 @@ const MyProjects = () => {
                 {
                     projectsData.map(({ icon, github, link, title }, index) => (
                         <div key={index} className='text-justify 
-                        border border-gray-400 rounded-lg py-2 px-1 hover:bg-blue-100 hover:-translate-y-1 duration-300 cursor-pointer'>
+                        border border-gray-400 rounded-lg py-2 px-1 hover:bg-blue-50 '>
                             <Image src={icon} alt='' className=' w-50 mx-auto aspect-video' unoptimized />
                             <h4 className='text-sm my-2 text-center text-gray-700'>{title}</h4>
                             <Divider />
                             <Box sx={{ display: "flex", justifyContent: "center", gap: "1rem", m: "auto" }}>
                                 <a target='_blank' href={github}>
-                                    <GitHubIcon />
+                                    <GitHubIcon className='hover:-translate-y-1 hover: duration-500 cursor-pointer' />
                                 </a>
                                 <a target='_blank' href={link}>
-                                    <LinkIcon />
+                                    <LinkIcon className='hover:-translate-y-1 hover: duration-500 cursor-pointer' />
                                 </a>
                             </Box>
                         </div>
