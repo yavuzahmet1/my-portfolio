@@ -48,6 +48,22 @@ import login_animation from "./projects/login.gif";
 import currency_app from "./projects/currency_app.gif"
 import nba_legends from "./projects/nba_legends.gif"
 import stock from "./projects/stock.gif";
+import gitSkill from "./skills/Git.png"
+import htmlSkill from "./skills/html.png"
+import cssSkill from "./skills/CSS3.png"
+import sassSkill from "./skills/Sass.png"
+import reactSkill from "./skills/React.png"
+import javascriptSkill from "./skills/JavaScript.png"
+import muiSkill from "./skills/Material.png"
+import tailwindSkill from "./skills/Tailwind.png"
+import reactBootsrapSkill from "./skills/ReactBootstrap.png"
+import reduxSkill from "./skills/Redux.png"
+import nextjsSkill from "./skills/Nextjs.png"
+import gitHubSkill from "./skills/GitHub.png"
+import dockerSkill from "./skills/Docker.png"
+import cypressSkill from "./skills/Cypress.png"
+
+
 
 
 export const assets = {
@@ -103,6 +119,20 @@ export const assets = {
     stock,
 };
 
+export const skills =
+{
+    htmlSkill, cssSkill, sassSkill,
+    reactSkill, gitSkill, javascriptSkill,
+    muiSkill, tailwindSkill, reactBootsrapSkill,
+    reduxSkill, nextjsSkill, gitHubSkill, dockerSkill, cypressSkill
+}
+
+export const frontendSkills = [
+    skills.htmlSkill, skills.cssSkill, skills.sassSkill, skills.reactSkill, skills.gitSkill, skills.javascriptSkill,
+    skills.muiSkill, skills.tailwindSkill, skills.reactBootsrapSkill, skills.reduxSkill, skills.nextjsSkill, skills.gitHubSkill,
+    skills.dockerSkill, skills.cypressSkill
+]
+
 export const workData = [
     {
         title: 'Frontend project',
@@ -156,3 +186,4 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+

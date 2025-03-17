@@ -1,4 +1,4 @@
-import { assets, infoList, toolsData } from '@/assets/assets'
+import { assets, frontendSkills, infoList, toolsData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
@@ -32,15 +32,27 @@ const About = () => {
                     </ul>
                     <h4 className='text-center font-semibold my-6 text-gray-700 '>Tools I Use</h4>
                     <ul className='flex items-center gap-3 sm:gap-5 justify-center'>
-                        {
+                        {/* {
                             toolsData.map((tool, index) => (
                                 <li key={index} className='flex items-center justify-center  border-gray-500 aspect-square w-12 sm:14 rounded-lg cursor-pointer hover:-translate-y-1 hover: duration-500'>
                                     <Image src={tool} alt='' />
                                 </li>
                             ))
-                        }
+                        } */}
+
                     </ul>
+
                 </div>
+
+            </div>
+            <div className='grid  md:grid-cols-8 sm:grid-cols-8 gap-6 my-10'>
+                {
+                    frontendSkills.map((skill, index) => (
+                        <li key={index} className='flex items-center justify-center  border-gray-500 aspect-square w-12 sm:14 rounded-lg cursor-pointer hover:-translate-y-1 hover: duration-500'>
+                            <Image src={skill} alt='' />
+                        </li>
+                    ))
+                }
             </div>
         </div>
     )

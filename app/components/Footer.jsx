@@ -6,9 +6,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const Footer = () => {
     return (
         <div className='text-center'>
-            <div className='w-max mx-auto'>
-                1yavuzahmet@gmail.com
-            </div>
             <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6'>
                 <p>
                     © 2025 Ahmet YAVUZ. All rights reserved.
