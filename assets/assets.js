@@ -62,6 +62,8 @@ import nextjsSkill from "./skills/Nextjs.png"
 import gitHubSkill from "./skills/GitHub.png"
 import dockerSkill from "./skills/Docker.png"
 import cypressSkill from "./skills/Cypress.png"
+import javaSkill from "./skills/Java.png"
+import springSkill from "./skills/Spring.png"
 
 
 
@@ -124,12 +126,11 @@ export const skills =
     htmlSkill, cssSkill, sassSkill,
     reactSkill, gitSkill, javascriptSkill,
     muiSkill, tailwindSkill, reactBootsrapSkill,
-    reduxSkill, nextjsSkill, gitHubSkill, dockerSkill, cypressSkill
+    reduxSkill, nextjsSkill, gitHubSkill, dockerSkill, cypressSkill, javaSkill, springSkill
 }
 
 export const frontendSkills = [
-    skills.htmlSkill, skills.cssSkill, skills.sassSkill, skills.reactSkill, skills.gitSkill, skills.javascriptSkill,
-    skills.muiSkill, skills.tailwindSkill, skills.reactBootsrapSkill, skills.reduxSkill, skills.nextjsSkill, skills.gitHubSkill,
+    skills.htmlSkill, skills.cssSkill, skills.javascriptSkill, skills.reactSkill, skills.nextjsSkill, skills.reduxSkill, skills.javaSkill, skills.springSkill, skills.sassSkill, skills.gitSkill, skills.muiSkill, skills.tailwindSkill, skills.reactBootsrapSkill, skills.gitHubSkill,
     skills.dockerSkill, skills.cypressSkill
 ]
 
